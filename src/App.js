@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import Home from './pages/Home';
-import NotFound from './pages/NotFound';
 import Portfolio from './pages/Portfolio';
 import projects from '../src/data/projects';
 import './App.css'
@@ -44,7 +43,7 @@ class App extends React.Component{
         <Route exact path="/" component={ Home } />
         <Route exact path="/about" component={ About } />
         <Route exact path="/portfolio" render={(props) => <Portfolio projectGit={projectGit} proj={proj} handleOnChange={this.handleOnChange} {...props} /> } />
-        <Route exact path="*" component={ NotFound } />
+        <Route exact path="*" component={ Home } />
       </Switch>
       <Footer />
     </div>
