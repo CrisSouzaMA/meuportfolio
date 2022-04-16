@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 ReactDOM.render(
-  <HashRouter>
+  <HashRouter hashType='hashbang'>
     <App />
   </HashRouter>,
   document.getElementById('root')
