@@ -8,7 +8,7 @@ import Linkedin from '../assets/images/linkedin.jpg'
 export default class Home extends React.Component{
   render(){
     return(
-      <>
+      <div>
   <main className="flex-shrink-0">
     <Header />
     <section className="py-5" id="features">
@@ -43,7 +43,7 @@ export default class Home extends React.Component{
                 </div>
                 <h2 className="h5">Módulo BackEnd</h2>
                 <p className="mb-0">
-                  Ainda não iniciado!
+                Módulo com diversos aprendizados relacionados a Docker, SQL, Node.JS, Deploy, TypeScript, POO e MongoDB!
                 </p>
               </div>
               <div className="col h-100">
@@ -182,7 +182,7 @@ export default class Home extends React.Component{
       </div>
     </section>
   </main>
-</>
+</div>
     );
   }
 }
