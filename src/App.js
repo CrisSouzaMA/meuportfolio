@@ -35,7 +35,6 @@ class App extends React.Component{
 
   render(){
     const {projectGit, proj} = this.state
-    console.log(proj);
     return (
     <div>
       <Navbar />
