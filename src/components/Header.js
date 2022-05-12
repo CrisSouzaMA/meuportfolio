@@ -21,13 +21,17 @@ export default class Header extends React.Component{
                   <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                     <Link
                       className="btn btn-success btn-lg px-4 me-sm-3"
-                      to={{pathname: "https://github.com/CrisSouzaMA"}}
+                      to="https://github.com/CrisSouzaMA"
                       target="_blank"
                     >
                       Repositórios no Github
                     </Link>
-                    <Link className="btn btn-outline-light btn-lg px-4" to="/about">
-                      Sobre Cristiane Souza
+                    <Link 
+                      className="btn btn-success btn-lg px-4 me-sm-3" 
+                      to={{pathname: "https://www.linkedin.com/in/cristianesmalmeida/"}}
+                      target="_blank"
+                      >
+                      Perfil no LinkedIn
                     </Link>
                   </div>
                 </div>
