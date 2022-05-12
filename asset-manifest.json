@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4424167e.css",
-    "main.js": "./static/js/main.735a7837.js",
+    "main.js": "./static/js/main.9ccb9a9e.js",
     "static/media/familia.JPG": "./static/media/familia.4b7a87f3cd6b32c3033d.JPG",
     "static/media/euetrybe.JPG": "./static/media/euetrybe.eb972430c119bc9363d7.JPG",
     "static/media/solarsystem.jpg": "./static/media/solarsystem.5a2e2acf50712d5ea371.jpg",
@@ -13,21 +13,18 @@
     "static/media/trybewarts.jpg": "./static/media/trybewarts.607f85de7c1c2cd2e2e8.jpg",
     "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.38c4d2499557ae0379fd.woff",
     "static/media/formatura.jpg": "./static/media/formatura.ab1f11bc7538500dbf33.jpg",
-    "static/media/facebook.jpg": "./static/media/facebook.588e1a4e4df8168849d6.jpg",
     "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.2b56e79ae5013246de29.woff2",
     "static/media/euepietro.jpg": "./static/media/euepietro.2e6c656df396db9e42cc.jpg",
-    "static/media/instagram.jpg": "./static/media/instagram.166b6a52e17f14b20311.jpg",
-    "static/media/linkedin.jpg": "./static/media/linkedin.1906880292d10ffdf80c.jpg",
     "static/media/tryunfo.jpg": "./static/media/tryunfo.e2aa5c359dd48b694bdb.jpg",
     "static/media/todolist.jpg": "./static/media/todolist.206d50d0f585c8f3e8c2.jpg",
     "static/media/pixelsart.jpg": "./static/media/pixelsart.54ba2e639bc61ba89f79.jpg",
     "static/media/Cristiane.png": "./static/media/Cristiane.cb683d2858c0359a6d3c.png",
     "index.html": "./index.html",
     "main.4424167e.css.map": "./static/css/main.4424167e.css.map",
-    "main.735a7837.js.map": "./static/js/main.735a7837.js.map"
+    "main.9ccb9a9e.js.map": "./static/js/main.9ccb9a9e.js.map"
   },
   "entrypoints": [
     "static/css/main.4424167e.css",
-    "static/js/main.735a7837.js"
+    "static/js/main.9ccb9a9e.js"
   ]
 }
