@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Cris from '../assets/images/cris2.jpg'
 
 export default class Header extends React.Component{
@@ -19,20 +18,22 @@ export default class Header extends React.Component{
                     profissional e pessoal. 
                   </p>
                   <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                    <Link
+                    <a
                       className="btn btn-success btn-lg px-4 me-sm-3"
-                      to="https://github.com/CrisSouzaMA"
+                      href="https://github.com/CrisSouzaMA"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Repositórios no Github
-                    </Link>
-                    <Link 
+                    </a>
+                    <a 
                       className="btn btn-success btn-lg px-4 me-sm-3" 
-                      to={{pathname: "https://www.linkedin.com/in/cristianesmalmeida/"}}
+                      href="https://www.linkedin.com/in/cristianesmalmeida/"
                       target="_blank"
+                      rel="noreferrer"
                       >
                       Perfil no LinkedIn
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
